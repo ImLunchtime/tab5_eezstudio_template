@@ -1,11 +1,10 @@
+# Automatically scan for UI source files
+file(GLOB_RECURSE UI_SOURCES "ui/*.c")
+
 idf_component_register(SRCS "m5stack-tab5-lvgl.c"
                             "hal.c"
                             "gui.c"
-                            "ui/ui.c"
-                            "ui/screens.c"
-                            "ui/images.c"
-                            "ui/styles.c"
-                            "ui/ui_image_miku1.c"
+                            ${UI_SOURCES}
                     INCLUDE_DIRS "."
                                  "ui"
                     REQUIRES eez-framework lvgl esp_lcd_touch m5stack-tab5)
