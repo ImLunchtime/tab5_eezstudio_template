@@ -385,9 +385,9 @@
         {
           "objID": "66eec6c4-d2f3-48fa-b304-4edc2c183ee2",
           "type": "LVGLActionComponent",
-          "left": 427,
-          "top": 0,
-          "width": 267,
+          "left": 418,
+          "top": 87,
+          "width": 304,
           "height": 53,
           "customInputs": [],
           "customOutputs": [],
