@@ -1,8 +1,9 @@
 # EEZ Studio support for M5Tab5
 # M5Tab5 EEZ Studio支持
-由m5stack-tab5-lvgl修改5
+由m5stack-tab5-lvgl修改
 本项目中包含了一个EEZ Studio项目（位于`根目录/main/Project/`），可以通过EEZ Studio编辑该项目，并点击导出即可导出到ESP-IDF项目中，直接编译。
-Modified from m5stack-tab5-lvgl. This project contains an EEZ Studio project at `root/main/project`. You can edit the project in EEZ Studio and export it, the exported code will be automatically imported to the ESP-IDF project.
+Modified from m5stack-tab5-lvgl. 
+This project contains an EEZ Studio project at `root/main/project`. You can edit the project in EEZ Studio and export it, the exported code will be automatically imported to the ESP-IDF project.
 
 ## 如何使用？
 1. 用EEZ Studio打开`根目录/main/Project/`项目文件
